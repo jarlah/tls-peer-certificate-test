@@ -1,7 +1,7 @@
 rust-native-tls is not able to receive a peer certificate.
 
 Operating system:
-macOS Venture 13.3.1
+macOS Ventura 13.3.1
 
 OpenSSL version:
 LibreSSL 3.3.6
