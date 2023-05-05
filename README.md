@@ -18,3 +18,5 @@ To reproduce the problem:
     0x0000000143904580 <- and what is this random number logged for each request?
     Peer certificate: None <- should in this example be the debugged ouput of an Option of Vec<u8>
     ```
+
+ANY CERTIFICATE IN THIS REPOSITORY IS DUMMY CERTIFICATES
