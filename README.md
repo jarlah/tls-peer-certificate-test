@@ -1,5 +1,11 @@
 rust-native-tls is not able to receive a peer certificate.
 
+Operating system:
+macOS Venture 13.3.1
+
+OpenSSL version:
+LibreSSL 3.3.6
+
 To reproduce the problem:
 
 1. Run curl
