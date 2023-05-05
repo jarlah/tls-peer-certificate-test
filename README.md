@@ -11,7 +11,7 @@ To reproduce the problem:
 1. cargo run
 2. Run curl
     ```
-    curl https://127.0.0.1:8443 --cacert ./certs/ca.pem --cert ./certs/CPE1234/cert.pem --key ./certs/CPE1234/key.pem --cert-type PEM -v --http0.9 -d 'hello native-tls'
+    curl https://127.0.0.1:8443 --cacert ./certs/ca.pem --cert ./certs/peer/cert.pem --key ./certs/peer/key.pem --cert-type PEM -v --http0.9 -d 'hello native-tls'
     ```
 3. Verify that peer certificate is not received by server
     ```
